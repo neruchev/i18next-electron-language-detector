@@ -4,7 +4,7 @@
 [![David](https://img.shields.io/david/neruchev/i18next-electron-language-detector.svg?style=flat-square)](https://david-dm.org/neruchev/i18next-electron-language-detector)
 
 
-This is an [i18next](http://i18next.com/) language detection plugin which used to determine user language in the [Electron.js](http://electron.atom.io/) application by applying an [app.getLocale()](http://electron.atom.io/docs/all/#appgetlocale) method.
+This is an [i18next](http://i18next.com/) language detection plugin which is used to determine user language in the [Electron.js](http://electron.atom.io/) application by applying an [app.getLocale()](http://electron.atom.io/docs/all/#appgetlocale) method.
 
 
 ## Installation
