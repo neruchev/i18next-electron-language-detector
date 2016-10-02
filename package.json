@@ -1,0 +1,24 @@
+{
+  "name": "i18next-electron-language-detector",
+  "version": "0.0.1",
+  "description": "Electron language detector for i18next.",
+  "keywords": ["electron", "i18n", "i18next", "i18next-language-detector"],
+  "license": "MIT",
+  "author": {
+    "name": "Cyril Neruchev",
+    "email": "k.neruchev@gmail.com"
+  },
+  "homepage": "https://github.com/neruchev/i18next-electron-language-detector",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:neruchev/i18next-electron-language-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neruchev/i18next-electron-language-detector/issues"
+  },
+  "main": "index.js",
+  "peerDependencies": {
+    "i18next": "3.*",
+    "electron-prebuilt": "*"
+  }
+}
