@@ -23,8 +23,10 @@ coverage
 # node-waf configuration
 .lock-wscript
 
+# babel configuration
+.babelrc
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build
 build/Release
 
 # Dependency directories
@@ -36,3 +38,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Source directories
+src

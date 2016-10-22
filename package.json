@@ -1,6 +1,6 @@
 {
   "name": "i18next-electron-language-detector",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Electron language detector for i18next.",
   "keywords": ["electron", "i18n", "i18next", "i18next-language-detector"],
   "license": "MIT",
@@ -16,9 +16,18 @@
   "bugs": {
     "url": "https://github.com/neruchev/i18next-electron-language-detector/issues"
   },
-  "main": "index.js",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src -d build"
+  },
   "peerDependencies": {
     "i18next": "3.*",
-    "electron-prebuilt": "*"
+    "electron": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-plugin-add-module-exports": "*",
+    "babel-preset-es2015": "*",
+    "babel-register": "*"
   }
 }
