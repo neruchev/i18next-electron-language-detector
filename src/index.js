@@ -1,4 +1,4 @@
-import { app } from 'electron';
+import { app, remote } from 'electron';
 
 export default {
   'init' : Function.prototype,
