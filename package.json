@@ -2,7 +2,12 @@
   "name": "i18next-electron-language-detector",
   "version": "0.0.10",
   "description": "Electron language detector for i18next",
-  "keywords": ["electron", "i18n", "i18next", "i18next-language-detector"],
+  "keywords": [
+    "electron",
+    "i18n",
+    "i18next",
+    "i18next-language-detector"
+  ],
   "license": "MIT",
   "author": {
     "name": "Cyril Neruchev",
